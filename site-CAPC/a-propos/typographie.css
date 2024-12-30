@@ -1,0 +1,15 @@
+
+
+/* Police pour les textes */
+@font-face {
+    font-family: 'Neue';
+    font-weight: 65;
+    src: url(/site-CAPC/a-propos/fonts/NeueHaasDisplayMediu.ttf);
+}
+
+/* Police pour h1,h2 et h3 */
+@font-face {
+    font-family: 'Neue';
+    font-weight: 75;
+    src: url(/site-CAPC/a-propos/fonts/NeueHaasDisplayBold.ttf);
+}

@@ -1,0 +1,174 @@
+section h2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    margin: 0;
+}
+
+h3, .collection h2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.expo1{
+    display: flex;
+}
+.expo-p, .expo-2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 65;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.photo1{
+
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+section div h3, .prochain h4{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 30px;
+    text-decoration: underline;
+}
+section div p, .prochain p, .colle1 p{
+    font-family: 'Neue', sans-serif;
+    font-weight: 10;
+    font-size: 25px;
+}
+
+
+.date{
+    font-family: 'Neue', sans-serif;
+    font-weight: 65;
+    font-size: 20px;
+}
+
+.prochain{
+    margin-top: 200px;
+}
+.grande-photo{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.collection{
+    margin-top: 200px;
+}
+
+.colle1, .colle2, .expo1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.part1{
+    max-width: 40%;
+    min-width: 200px;
+}
+
+.colle1 h2, .colle2 h2, .part1 h2{
+    margin: 50px;
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.photo2{
+    width: 100%;
+    height: auto;
+    
+}
+
+h3 a{
+    color: black;
+}
+
+h3 a:hover{
+    opacity: 70%;
+    
+}
+
+div img:hover{
+    opacity: 60%;
+}
+
+section img{
+    width: 100%;
+}
+
+.container{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.red-bar
+{
+    background-color: red;
+    width:100%;
+    height: 30px;
+}
+
+@media (max-width: 680px) {
+    section{padding-left: 25px;
+    margin-left: 0px;}
+    
+    section h3{
+    font-size: 18px;
+    }
+    section h2{
+        font-size: 25px;
+    }
+    .part1 h3{
+        font-size: 18px;
+    }
+    .expo-p,p{
+        font-size: 16px;
+    }
+    .date{
+        font-size: 12;
+    }
+    .part1 p{
+        font-size: 16px;
+    }
+    .red-bar{
+        height: 15px;
+    }
+    .prochain h2{
+        font-size: 25px;
+    }
+    .prochain h3{
+        font-size: 18px;
+    }
+    .prochain p{
+        font-size: 16px;
+    }
+    .collection h2{
+        font-size: 25px;
+    }
+    .collection p{
+        font-size: 16px;
+    }
+    .colle1, .colle2, .expo1{
+        margin-top: 25px;
+    }
+    .grande-photo{
+        margin-top: 50px;
+    }
+    .collection{
+        margin-top: 50px;
+    }
+    .prochain{
+        margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,27 @@
+/*font pour le H1*/
+@font-face {
+    font-family: 'Neue';
+    font-weight: bold;
+    src: url(/site-CAPC/fonts/NeueHaasDisplayBlack.ttf);
+}
+
+/*font pour h2 et H3*/
+@font-face {
+    font-family: 'Neue';
+    font-weight: 75;
+    src: url(/site-CAPC/fonts/NeueHaasDisplayBold.ttf);
+}
+
+/*font pour les textes*/
+@font-face {
+    font-family: 'Neue';
+    font-weight: 65;
+    src: url(/site-CAPC/fonts/NeueHaasDisplayMediu.ttf);
+}
+
+/*font pour les texte avec images*/
+@font-face {
+    font-family: 'Neue';
+    font-weight: 10;
+    src: url(/site-CAPC/fonts/NeueHaasDisplayMediu.ttf);
+}

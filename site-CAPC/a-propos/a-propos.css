@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Neue', sans-serif;
+}
+
+section{
+    margin: 65px;
+}
+
+header {
+    background-color: #FF0505;
+    padding: 40px;
+    margin: -8px;
+}
+
+p{
+    font-family: 'Neue';
+    font-weight: 65;
+    font-size: 25px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.langue{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.recherche{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+nav ul li label {
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    justify-content: end;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul li label:hover, nav ul li label:hover a {
+    color: black;
+}
+
+.recherche input{
+    opacity: 0;
+    width: 0;
+    transition: 550ms;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    padding: 10px;
+    background: #DEDEDE;
+    margin-top: 10px;
+}
+
+/*.recherche input:focus*/
+.recherche input{
+    opacity: 1;
+    width: 150px;
+    outline: 0;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    color: black;
+}
+
+h1, h2 {
+    font-weight: 75;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.txt-capc{
+    font-weight: 65;
+    font-size: 25px;
+}
+
+.part2{
+    max-width: 40%;
+    min-width: 200px;
+}
+
+.part2 h2 a, .part3 h3 a, .visite h3 a{
+    font-weight: 75;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.part2 h2 a:hover, .part3 h3 a:hover, .visite h3 a:hover{
+    color: red;
+}
+
+.part2 img, .part3 img, .histoire{
+    width: 100%;
+    height: auto;
+}
+
+.part2 img:hover, .part3 img:hover{
+    opacity: 80%;
+}
+
+.date{
+    font-weight: 65;
+    font-size: 20px;
+}
+
+.story{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.offres{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+@media (min-width: 680px){
+    .offres div{
+        width: 25%;
+    }
+}
+
+
+.offres img {
+    width: 100%;
+}
+
+
+.separator {
+    background-color: red;
+    height: 30px; 
+    width: 100%; 
+}
+
+
+@media (max-width: 680px) {
+    .foot1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offres{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    .contacts ul{
+        font-size: 10px;
+    }
+
+
+    h3{
+        font-size: 20px;
+    }
+
+    header nav ul li a{
+        display: none;
+    }
+
+    .offres{
+        width: 100%;
+        
+    }
+}
+
+
