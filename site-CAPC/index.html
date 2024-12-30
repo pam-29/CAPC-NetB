@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/site-CAPC/typography.css">
     <link rel="stylesheet" href="/site-CAPC/style/home.css">
     <link rel="stylesheet" href="/site-CAPC/style/footer.css">
+    <script src="/mode.js" defer></script>
 </head>
 <body>
     <header id="main-header"> 
@@ -36,32 +37,33 @@
     </div>
 
         <div class="menu">    
-        <nav>
+            <nav>
             
-            <ul>
-                <li><a href="">ACCUEIL</a></li>
-                <li><a href="">EXPOSITIONS</a></li>
-                <li><a href="">COLLECTION</a></li>
-                <li><a href="">AGENDA</a></li>
-                <li><a href="">SERVICES</a></li>
-                <Li><a href="/site-CAPC/a-propos/a-propos.html">A PROPOS</a></Li>
-                <li><a href=""> <div class="bar"></div></a></li>
-                <li>
-                    <div class="search">
-                        <input type="text" id="search" placeholder="Rechercher..." autocomplete="off">
-                        <label for="search">
-                            <img src="/site-CAPC/icone/recherche.svg" alt=""><a href="">RECHERCHE</a>
-                        </label>
-                    </div>
-                </li>   
-                <li>
-                    <div class="langue">
-                    <img src="/site-CAPC/icone/langue.svg" alt=""><a href="">EN</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </div>    
+                <ul>
+                    <li><a href="">ACCUEIL</a></li>
+                    <li><a href="">EXPOSITIONS</a></li>
+                    <li><a href="">COLLECTION</a></li>
+                    <li><a href="">AGENDA</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <Li><a href="/site-CAPC/a-propos/a-propos.html">A PROPOS</a></Li>
+                    <li><a href=""> <div class="bar"></div></a></li>
+                    <li>
+                        <div class="search">
+                            <input type="text" id="search" placeholder="Rechercher..." autocomplete="off">
+                            <label for="search">
+                                <img src="/site-CAPC/icone/recherche.svg" alt=""><a href="">RECHERCHE</a>
+                            </label>
+                        </div>
+                    </li>   
+                    <li>
+                        <div class="langue">
+                        <img src="/site-CAPC/icone/langue.svg" alt=""><a href="">EN</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <button class="bouton" onclick="basculerMode()">Mode</button>
+        </div>    
     </header>
 
     <main>
@@ -100,7 +102,7 @@
                         <p>Une exposition conçue par Benoit Maire avec une scénographie de Ker-Xavier.</p>
                 </div>
     </section>
-<div class="red-bar"></div>
+<div class="red-bar" id="barre"></div>
     <!--Page prochainement-->
     <section class="prochain">
         <h3>Prochainement</h3>
@@ -112,7 +114,7 @@
             <p class="date">Le 12 dec 2024 et le 13 dec 2024</p>
     </section>
 
-    <div class="red-bar"></div>
+<div class="red-bar" id="barre1"></div>
     
     <!--Page collection-->
     <section class="collection">
@@ -153,11 +155,11 @@
                 <img src="/site-CAPC/image/collection-hors-les-murs.jpg" alt="" class="photo2">
                 <p>Les œuvres de la collection du Capc peuvent être empruntées ou mises en dépôt pour des expositions temporaires, monographiques ou collectives, à l’initiative d’institutions, de musées ou centres d’art en France comme à l’étranger.</p>
             </div>
-      </div>    
+    </div>    
     </section>
     </main>
 
-    <footer>
+    <footer id="pied">
         <div class="foot">
             <div class="foot1">
                 <div class="horaires">
